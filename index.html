@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance Management System</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="container">
+    <h1>🎓 Student Attendance Management System</h1>
+    <div class="input-box">
+        <input type="text" id="studentName" placeholder="Enter student name">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+    <div class="stats">
+        <h3>Total Students: <span id="totalCount">0</span></h3>
+        <h3>Attendance %: <span id="attendancePercent">0</span>%</h3>
+    </div>
+    <table id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
